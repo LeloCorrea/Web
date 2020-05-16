@@ -137,6 +137,13 @@ a:hover {
     width: 150px;
     object-fit: cover;
     border-radius: 10px;
+    object-position: left bottom;
+    transition: transform 500ms;
+}
+
+.img-portfolio :hover{
+    transform: scale(1.2);
+
 }
 
 .contato .icons{
