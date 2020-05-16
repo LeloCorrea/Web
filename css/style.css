@@ -144,6 +144,7 @@ a:hover {
     text-shadow: 0px 0px 10px red;
 }
 
+/* Color picker para verificar cores. */
 .portfolio a:hover{
     text-decoration: none;
     text-shadow: 0px 0px 10px red;
