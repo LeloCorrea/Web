@@ -79,30 +79,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-/*
-.titulo {
- 1
-    transform: scale(0.2) translateY(50vh)
-    opacity: 0;
-    
- 2
-    animation: linear 2s animacaoTitulo;
-}
-
-1
-.titulo {
-    transform: scale(0.20) translateY(0)
-    opacity: 1;
-}
-
-2
-@keyframes animacaoTitulo{
-    100%{
-        transform: scale(1) translateY(0);
-        opacity: 1;
-    }
-}
-*/
 
 .site-subtitle,
 .site-title {
