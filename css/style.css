@@ -85,11 +85,13 @@ a:hover {
     line-height: 1.8em;
 }
 
+.contato,
 .portfolio {
    padding: 2em;
    height: 100vh;
 }
 
+.contato h2,
 .portfolio h2 {
     font-family: 'Balsamiq Sans', cursive;
     color: black;
