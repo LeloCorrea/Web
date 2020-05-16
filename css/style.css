@@ -185,12 +185,18 @@ a:hover {
     transform: scale(1.2) rotate(15deg);
 }
 
+.flip-card{
+    perspective: 500px;
+
+}
+
 .card{
     position: relative;
     transform-style: preserve-3d;
+    transition: transform 1s;
 }
 
-.card: hover{
+.flip-card:hover .card{
     transform: rotateY(180deg);
 }
 
