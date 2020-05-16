@@ -1,19 +1,31 @@
 /*  About me: Anderson Corrêa da Cunha*/
 
+/*soft reset do CSS*/
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url('https://image.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg');
+    background-image: url('../Image/abstract-blue-geometric-shapes-background_1035-17545.jpg');
     background-size: auto 100vh ;
     font-family: Arial;
-    height: 100vh
+    height: 100vh;
 }
-   
+
+header{
+    height: 100vh; /*viewport height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu {
     background-color: gray;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 .menu ul {
     display: flex;
@@ -22,6 +34,12 @@ body {
 .menu li {
     list-style: none;
 }
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    background: aquamarine;
+}
+
 a {
     color : black;
     font-size: large;
@@ -38,4 +56,9 @@ a:hover {
 }  
 .site-subtitle{
     font-style: italic;
+}
+
+.img-portfolio{
+    height: 180px;
+    width: 100px;
 }
