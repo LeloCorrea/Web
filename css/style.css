@@ -10,7 +10,7 @@
 body {
     background-image: url('../Image/abstract-blue-geometric-shapes-background_1035-17545.jpg');
     background-size: auto 100vh ;
-    font-family: Arial;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
     font-size: 18px;
 }
