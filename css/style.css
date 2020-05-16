@@ -71,7 +71,7 @@ a:hover {
 }
 .site-subtitle,
 .site-title {
-    color: blue;
+    color: black;
     text-align: center;
 }
 
@@ -128,4 +128,23 @@ a:hover {
     width: 150px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.contato .icons{
+    text-align: center;
+}
+
+.contato a {
+    color: black;
+    font-size: 1em;
+}
+
+.contato a:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 10px red;
+}
+
+.portfolio a:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 10px red;
 }
