@@ -17,7 +17,9 @@ body {
     list-style: none;
 }
 a {
-    color : teal;
+    color : black;
+    font-size: large;
+    font-style: normal;
     text-decoration: none;  
 }
 a:hover {
@@ -27,8 +29,7 @@ a:hover {
 .site-title {
     color: blue;
     text-align: center;
+}  
+.site-subtitle{
+    font-style: italic;
 }
-   
-   .site-subtitle{
-       font-style: italic;
-   }
