@@ -141,10 +141,10 @@ a:hover {
 
 .contato a:hover{
     text-decoration: none;
-    text-shadow: 0px 0px 10px rgba(red,100,700,0.5);
+    text-shadow: 0px 0px 10px red;
 }
 
 .portfolio a:hover{
     text-decoration: none;
-    text-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    text-shadow: 0px 0px 10px red;
 }
