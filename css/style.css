@@ -60,6 +60,11 @@ header{
     padding: 10px 20px;
 }
 
+.menu a:hover{
+    background-color: green;
+    color: pink;
+}
+
 a {
     color : black;
     font-size: large;
