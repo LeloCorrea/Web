@@ -185,6 +185,29 @@ a:hover {
     transform: scale(1.2) rotate(15deg);
 }
 
+.card{
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.card: hover{
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back{
+    backface-visibility: hidden;
+    left:0;
+    position: absolute;
+    top:0;
+}
+
+.card-back{
+    height: 160px;
+    width: 150px;
+    transform: rotateY(180deg);
+}
+
 .contato .icons{
     text-align: center;
 }
