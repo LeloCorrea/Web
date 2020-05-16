@@ -95,12 +95,14 @@ a:hover {
     line-height: 1.8em;
 }
 
+.sobre,
 .contato,
 .portfolio {
    padding: 2em;
    height: 100vh;
 }
 
+.sobre h2,
 .contato h2,
 .portfolio h2 {
     font-family: 'Balsamiq Sans', cursive;
@@ -143,7 +145,7 @@ a:hover {
 }
 
 .img-portfolio:hover {
-    transform: scale(1.2) rotate(45deg);
+    transform: scale(1.2) rotate(15deg);
 }
 
 .contato .icons{
