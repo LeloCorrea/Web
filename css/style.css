@@ -53,6 +53,7 @@ header{
 }
 .menu li {
     list-style: none;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .menu a {
     display: block;
