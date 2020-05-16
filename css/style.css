@@ -84,6 +84,11 @@ a:hover {
     font-family: 'Roboto', sans-serif;
 }
 
+.site-subtitle-p{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
 .img-portfolio{
     height: 150px;
     width: 150px;
