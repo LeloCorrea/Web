@@ -84,9 +84,9 @@ a:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-.site-subtitle-p{
-    font-style: normal;
+.portfolio h2 {
     font-family: 'Balsamiq Sans', cursive;
+    line-height: 1.8em;
 }
 
 .img-portfolio{
