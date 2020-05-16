@@ -133,16 +133,16 @@ a:hover {
     text-align: center;
 }
 
-.img-portfolio{
+.img-portfolio {
     height: 160px;
     width: 150px;
-    border-radius: 10px;
     object-fit: cover;
     object-position: left bottom;
     transition: transform 500ms;
+    border-radius: 10px;
 }
 
-.img-portfolio :hover{
+.img-portfolio:hover {
     transform: scale(1.2) rotate(45deg);
 }
 
