@@ -35,7 +35,7 @@ body {
 }
 
 header{
-    height: 4em; /*viewport height*/
+    height: 50vh; /*viewport height*/
     display: flex;
     justify-content: center;
     align-items: center;
