@@ -12,3 +12,8 @@ numeroB = numeroC;
 ---
 var gostoDeSorvete = true;
 console.log(gostoDeSorvete)
+---
+var umNumeroPequeno = 3;
+var umNumeroGrande = 7;
+var eMenor = umNumeroPequeno < umNumeroGrande;
+var eMaior = umNumeroPequeno > umNumeroGrande;
